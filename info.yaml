@@ -17,8 +17,8 @@ project:
 pinout:
   # Inputs
   ui[0]: "input a"
-  ui[1]: "input b"
-  ui[2]: "input c"
+  ui[1]: ""
+  ui[2]: ""
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
@@ -26,8 +26,8 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "output and"
-  uo[1]: "output nand"
+  uo[0]: "output a"
+  uo[1]: ""
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
