@@ -12,7 +12,9 @@ You can also include images in this folder and reference them in the markdown. E
 it does some stuff
 ## How to test
 
-follow the steps
+Input a, Output a
+0      ,   1
+1      ,   0
 
 ## External hardware
 
