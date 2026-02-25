@@ -11,12 +11,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 it does some stuff
 ## How to test
-In   , Out   |  In   ,  Out |  In   ,  Out   |
-A B  ,  A&B  |  B C  ,  B|C |  C D  ,  C|~D  |
-0 0  ,  0    |  0 0  ,   0  |  0 0  ,   1    |
-0 1  ,  0    |  0 1  ,   1  |  0 1  ,   0    |
-1 0  ,  0    |  1 0  ,   1  |  1 0  ,   0    |
-1 1  ,  1    |  1 1  ,   1  |  1 1  ,   0    | ect ...
+| In (A B) | Out (A&B) | \| | In (B C) | Out (B\|C) | \| | In (C D) | Out (C\|~D) |
+| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| 0 0 | 0 | | 0 0 | 0 | | 0 0 | 1 |
+| 0 1 | 0 | | 0 1 | 1 | | 0 1 | 0 |
+| 1 0 | 0 | | 1 0 | 1 | | 1 0 | 0 |
+| 1 1 | 1 | | 1 1 | 1 | | 1 1 | 0 |
 
 ## External hardware
 
